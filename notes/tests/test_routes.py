@@ -32,7 +32,6 @@ class TestRoutes(TestCase):
         Страницы регистрации пользователей, входа в учётную запись и выхода
         из неё доступны всем пользователям.
         """
-
         urls = (
             'notes:home',
             'users:login',
@@ -52,7 +51,6 @@ class TestRoutes(TestCase):
         страница успешного добавления заметки done/,
         страница добавления новой заметки add/.
         """
-
         urls = (
             'notes:list',
             'notes:add',
